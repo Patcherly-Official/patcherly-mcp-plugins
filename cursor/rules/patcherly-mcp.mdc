@@ -1,0 +1,13 @@
+---
+description: Patcherly MCP guardrails for Cursor agents
+alwaysApply: true
+---
+
+# Patcherly MCP rules
+
+- Never ask the user to paste OAuth tokens, HMAC secrets, or connector keys into chat.
+- Destructive MCP tools (`delete_target`, `delete_error`, etc.) require `confirm=true` in tool arguments — confirm with the user before calling.
+- Prefer read tools (`list_errors`, `get_metrics_summary`) before write tools when triaging.
+- MCP connects to the user's **frozen workspace** from consent — do not assume they can switch tenant via the agent.
+- If Patcherly MCP tools fail with Unauthorized / auth errors, or the MCP panel shows Needs login / Logout after an interrupted OAuth attempt: tell the user to use **Authenticate / Connect / Login** (not Logout), complete consent once on the dashboard, and avoid starting a second OAuth flow from agent chat in parallel. Do not invent workarounds that paste tokens.
+- Platform-operator (`sa_*`) tools need an explicit `tenant_id`; workspace tools like `list_errors` use the frozen consent workspace only.

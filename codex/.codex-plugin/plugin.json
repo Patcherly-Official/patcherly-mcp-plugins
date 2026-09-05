@@ -1,0 +1,8 @@
+{
+  "name": "patcherly",
+  "version": "1.0.4",
+  "description": "Connect ChatGPT / Codex to Patcherly hosted MCP (OAuth PKCE + soft DCR) with triage and export skills",
+  "author": {
+    "name": "Patcherly"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "patcherly",
+  "title": "Patcherly",
+  "description": "MCP server for Patcherly: error triage, targets, metrics, audit & usage tools, for AI assistants.",
+  "version": "1.0.4",
+  "protocol": "streamable-http",
+  "transport": {
+    "type": "streamable-http",
+    "url": "https://mcp.patcherly.com/mcp"
+  },
+  "authentication": {
+    "type": "oauth2",
+    "authorizationUrl": "https://api.patcherly.com/v1/oauth/authorize",
+    "tokenUrl": "https://api.patcherly.com/v1/oauth/token",
+    "registrationUrl": "https://api.patcherly.com/v1/oauth/register",
+    "protectedResourceMetadata": "https://mcp.patcherly.com/.well-known/oauth-protected-resource"
+  },
+  "capabilities": {
+    "tools": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "patcherly",
+  "displayName": "Patcherly",
+  "version": "1.0.4",
+  "description": "Connect Cursor to Patcherly hosted MCP (OAuth PKCE + soft DCR) with guardrails and export workflows",
+  "author": {
+    "name": "Patcherly"
+  },
+  "homepage": "https://patcherly.com",
+  "license": "FSL-1.1-Apache-2.0",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "mcp",
+    "oauth",
+    "errors",
+    "patcherly"
+  ],
+  "rules": [
+    "rules/patcherly-mcp.mdc"
+  ],
+  "skills": [
+    "skills/triage-error/SKILL.md",
+    "skills/export-workspace-data/SKILL.md"
+  ]
+}
