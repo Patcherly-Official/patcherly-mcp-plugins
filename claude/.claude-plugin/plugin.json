@@ -1,8 +1,9 @@
 {
   "name": "patcherly",
-  "version": "1.0.4",
-  "description": "Connect Claude Code to Patcherly hosted MCP (OAuth PKCE + soft DCR) with triage and export skills",
+  "version": "1.0.5",
+  "description": "Connect Claude Code to Patcherly hosted MCP to triage errors and export workspace data",
   "author": {
     "name": "Patcherly"
-  }
+  },
+  "license": "Apache-2.0"
 }

@@ -1,7 +1,7 @@
 ---
 name: export-workspace-data
 description: Export Patcherly workspace data via MCP CSV tools matching dashboard exports
-license: FSL-1.1-Apache-2.0
+license: Apache-2.0
 ---
 
 # Export workspace data (Patcherly MCP)

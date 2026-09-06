@@ -1,9 +1,19 @@
-# Patcherly IDE plugins
+# Patcherly for ChatGPT / Codex
 
-Shared skills, assets, and license for Patcherly MCP IDE plugins (Cursor, Claude Code, Codex). Provider-specific manifests live in sibling overlay folders and are assembled by the packer into installable trees.
+Official Codex plugin for [Patcherly](https://patcherly.com): connect hosted MCP and use triage/export skills with your Patcherly account.
 
-See the [public packages README](../README.md) for install links.
+**Server URL:** `https://mcp.patcherly.com/mcp`
 
----
+## Install
 
-Packed for **codex**. Hosted MCP: `https://mcp.patcherly.com/mcp`.
+```bash
+codex mcp add patcherly --url https://mcp.patcherly.com/mcp
+```
+
+Or install this plugin folder, then complete OAuth when prompted and approve the workspace in the Patcherly dashboard (**Profile → MCP**).
+
+Help: [Connect your AI assistant](https://help.patcherly.com/integrations/connect-ai-assistant/) · [MCP client setup](https://help.patcherly.com/integrations/mcp-client-setup/)
+
+## License
+
+Apache License, Version 2.0 — see [LICENSE](LICENSE). **Patcherly** is a registered trademark, property of Shambix.

@@ -1,20 +1,25 @@
 {
   "name": "patcherly",
   "displayName": "Patcherly",
-  "version": "1.0.4",
-  "description": "Connect Cursor to Patcherly hosted MCP (OAuth PKCE + soft DCR) with guardrails and export workflows",
+  "version": "1.0.5",
+  "description": "Connect Cursor to Patcherly hosted MCP to triage errors and export workspace data",
   "author": {
     "name": "Patcherly"
   },
   "homepage": "https://patcherly.com",
-  "license": "FSL-1.1-Apache-2.0",
+  "repository": "https://github.com/Patcherly-Official/patcherly-mcp-plugins",
+  "license": "Apache-2.0",
   "logo": "assets/logo.png",
   "keywords": [
     "mcp",
     "oauth",
     "errors",
-    "patcherly"
+    "patcherly",
+    "triage",
+    "export",
+    "hosted"
   ],
+  "mcpServers": "./mcp.json",
   "rules": [
     "rules/patcherly-mcp.mdc"
   ],

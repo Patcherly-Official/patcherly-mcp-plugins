@@ -60,7 +60,7 @@ Help Docs: **[Connect your AI assistant](https://help.patcherly.com/integrations
 
 ## Licensing
 
-IDE plugin trees in this repository are licensed under the [Functional Source License, Version 1.1, Apache 2.0 Future License (FSL-1.1-Apache-2.0)](cursor/LICENSE).
+IDE plugin trees in this repository are licensed under the [Apache License, Version 2.0](cursor/LICENSE).
 
 **Patcherly** is a registered trademark, property of Shambix.
 

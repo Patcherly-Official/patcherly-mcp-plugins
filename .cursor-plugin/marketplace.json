@@ -1,0 +1,17 @@
+{
+  "name": "patcherly-mcp-plugins",
+  "owner": {
+    "name": "Patcherly",
+    "email": "info@patcherly.com"
+  },
+  "metadata": {
+    "description": "Official Patcherly IDE plugins for hosted MCP"
+  },
+  "plugins": [
+    {
+      "name": "patcherly",
+      "source": "cursor",
+      "description": "Connect Cursor to Patcherly hosted MCP to triage errors and export workspace data"
+    }
+  ]
+}
