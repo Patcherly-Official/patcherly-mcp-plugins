@@ -11,7 +11,6 @@ Official IDE plugins and MCP install configs for [Patcherly](https://patcherly.c
 [![Patcherly](https://img.shields.io/badge/Patcherly-2.7.0-10b981?style=flat-square)](https://patcherly.com)
 [![Help](https://img.shields.io/badge/help.patcherly.com-1869f5?style=flat-square)](https://help.patcherly.com/integrations/connect-ai-assistant/)
 [![Discord](https://img.shields.io/badge/Discord-join-5865f2?logo=discord&logoColor=white&style=flat-square)](https://discord.gg/7yZkD9KNsS)
-[![Donate](https://img.shields.io/github/sponsors/Patcherly-Official?label=Sponsors&logo=GitHub)](https://github.com/sponsors/Patcherly-Official)
 
 </div>
 
@@ -21,7 +20,7 @@ Official IDE plugins and MCP install configs for [Patcherly](https://patcherly.c
 
 | Path | Client | What’s included |
 |------|--------|-----------------|
-| [`cursor/`](cursor/) | Cursor | Hosted MCP connection + agent rules + skills (`triage-error`, `export-workspace-data`) |
+| [`cursor/`](cursor/) | Cursor | Hosted MCP connection + agent rules + skills (`patcherly-triage-error`, `patcherly-export-workspace-data`) |
 | [`claude/`](claude/) | Claude Code | Hosted MCP connection + the same skills |
 | [`codex/`](codex/) | ChatGPT / Codex | Hosted MCP connection + the same skills |
 

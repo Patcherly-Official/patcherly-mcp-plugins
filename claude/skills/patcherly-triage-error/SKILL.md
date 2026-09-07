@@ -1,5 +1,5 @@
 ---
-name: triage-error
+name: patcherly-triage-error
 description: Triage a Patcherly error via MCP read tools before suggesting fixes
 license: Apache-2.0
 ---

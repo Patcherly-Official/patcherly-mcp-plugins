@@ -18,7 +18,7 @@ One-click MCP (connection only, no skills/rules): [Install Patcherly MCP in Curs
 
 - Hosted MCP connection (`mcp.json`)
 - Agent guardrails (`rules/`)
-- Skills: `triage-error`, `export-workspace-data`
+- Skills: `patcherly-triage-error`, `patcherly-export-workspace-data`
 
 ## Help
 

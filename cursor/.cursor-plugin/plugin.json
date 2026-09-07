@@ -1,7 +1,7 @@
 {
   "name": "patcherly",
   "displayName": "Patcherly",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Connect Cursor to Patcherly hosted MCP to triage errors and export workspace data",
   "author": {
     "name": "Patcherly"
@@ -24,7 +24,7 @@
     "rules/patcherly-mcp.mdc"
   ],
   "skills": [
-    "skills/triage-error/SKILL.md",
-    "skills/export-workspace-data/SKILL.md"
+    "skills/patcherly-triage-error/SKILL.md",
+    "skills/patcherly-export-workspace-data/SKILL.md"
   ]
 }

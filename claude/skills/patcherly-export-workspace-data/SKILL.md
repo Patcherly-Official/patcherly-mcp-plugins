@@ -1,5 +1,5 @@
 ---
-name: export-workspace-data
+name: patcherly-export-workspace-data
 description: Export Patcherly workspace data via MCP CSV tools matching dashboard exports
 license: Apache-2.0
 ---

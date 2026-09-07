@@ -2,7 +2,7 @@
   "name": "patcherly",
   "title": "Patcherly",
   "description": "MCP server for Patcherly: error triage, targets, metrics, audit & usage tools, for AI assistants.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "protocol": "streamable-http",
   "transport": {
     "type": "streamable-http",
