@@ -13,6 +13,7 @@ license: Apache-2.0
 3. If analysis is stale, suggest `trigger_analysis` only after user confirms quota usage.
 4. Use write tools only when the user explicitly requests an action:
    - `approve_fix`
+   - `retry_apply` (re-dispatch apply for approved / failed with a fix)
    - `reject_patch` with required `resolution` (`manual_suggestion` | `manual_own` | `not_needed`)
    - `mark_fixed` with required `resolution` (`manual_suggestion` | `manual_own`)
    - `ignore_error` (pre-analysis hide — not a substitute for reject-patch)
