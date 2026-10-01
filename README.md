@@ -8,7 +8,7 @@ Official IDE plugins and MCP install configs for [Patcherly](https://patcherly.c
 
 **For a limited time**, new accounts include a **30-day trial** of the full **Pro** plan — **no credit card required**. Cancel anytime. [Sign up](https://patcherly.com) · [Pricing](https://patcherly.com/pricing) · [Trial help](https://help.patcherly.com/billing/trial/).
 
-[![MCP Plugins](https://img.shields.io/github/v/release/Patcherly-Official/patcherly-mcp-plugins?label=MCP%20Plugins&style=flat-square&color=10b981)](https://github.com/Patcherly-Official/patcherly-mcp-plugins/releases)
+[![Patcherly](https://img.shields.io/badge/Patcherly-2.7.0-10b981?style=flat-square)](https://patcherly.com)
 [![Help](https://img.shields.io/badge/help.patcherly.com-1869f5?style=flat-square)](https://help.patcherly.com/integrations/connect-ai-assistant/)
 [![Discord](https://img.shields.io/badge/Discord-join-5865f2?logo=discord&logoColor=white&style=flat-square)](https://discord.gg/7yZkD9KNsS)
 
@@ -35,7 +35,7 @@ Public packages live in [Patcherly-Official/patcherly-mcp-plugins](https://githu
 | Client | Action |
 |--------|--------|
 | **Cursor (one-click MCP)** | [Install Patcherly MCP in Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=patcherly&config=eyJ1cmwiOiJodHRwczovL21jcC5wYXRjaGVybHkuY29tL21jcCJ9) |
-| **Cursor (full plugin)** | [Cursor Directory](https://cursor.directory/plugins/patcherly), Cursor marketplace, or clone/use the [`cursor/`](cursor/) folder in this repo |
+| **Cursor (full plugin)** | Install from the Cursor marketplace, or clone/use the [`cursor/`](cursor/) folder in this repo |
 | **Claude Code** | `claude mcp add --transport http patcherly https://mcp.patcherly.com/mcp` then complete OAuth when prompted — or install the [`claude/`](claude/) plugin |
 | **Codex CLI** | `codex mcp add patcherly --url https://mcp.patcherly.com/mcp` then complete OAuth when prompted — or install the [`codex/`](codex/) plugin |
 | **VS Code / Copilot** | Add remote HTTP MCP at `https://mcp.patcherly.com/mcp` — see [MCP client setup](https://help.patcherly.com/integrations/mcp-client-setup/) |
