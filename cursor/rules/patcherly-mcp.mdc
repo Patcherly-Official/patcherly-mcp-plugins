@@ -7,7 +7,10 @@ alwaysApply: true
 
 - Never ask the user to paste OAuth tokens, HMAC secrets, or connector keys into chat.
 - Destructive MCP tools (`delete_target`, `delete_error`, `force_disconnect`, etc.) require `confirm=true` in tool arguments — confirm with the user before calling.
-- Prefer read tools (`list_errors`, `get_metrics_summary`) before write tools when triaging.
-- MCP connects to the user's **frozen workspace** from consent — do not assume they can switch tenant via the agent.
-- If a tool is missing from `tools/list`, treat it as out of scope for this session — do not invent platform-admin or cross-workspace actions.
+- Prefer read tools (`list_errors`, `get_error`, `get_audit_events`, `get_metrics_summary`) before write tools when triaging.
+- Use Patcherly MCP tools for workspace data (errors, analysis, audit, metrics, usage). Do not invent direct database access or claim `get_error` omits the patch or explanation.
+- `get_error` returns nested `analysis` (`available`, `fix`, `explanation`, `confidence`, `patch`, and related fields) when analysis exists. If `analysis.available` is false, analysis has not run yet.
+- Audit: `get_audit_events` / `export_audit`. Metrics/usage: `get_metrics_summary` / `get_usage` (and matching export tools when scoped).
+- MCP connects to the user's **frozen workspace** from consent — do not assume they can switch workspace via the agent.
+- If a tool is missing from `tools/list`, treat it as out of scope for this session — do not invent extra admin or cross-workspace actions.
 - If Patcherly MCP tools fail with Unauthorized / auth errors, or the MCP panel shows Needs login / Logout after an interrupted OAuth attempt: tell the user to use **Authenticate / Connect / Login** (not Logout), complete consent once on the dashboard, and avoid starting a second OAuth flow from agent chat in parallel. Do not invent workarounds that paste tokens.

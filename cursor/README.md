@@ -8,7 +8,7 @@ No API keys to paste — sign in with OAuth when Cursor prompts you, then approv
 
 ## Install
 
-1. Install **Patcherly** from the Cursor marketplace, or use this plugin folder as a local Cursor plugin.
+1. Install **Patcherly** from the [Cursor Directory](https://cursor.directory/plugins/patcherly) (or the Cursor marketplace), or use this plugin folder as a local Cursor plugin.
 2. When Cursor asks you to authenticate, complete sign-in and approve the workspace on [app.patcherly.com](https://app.patcherly.com).
 3. Manage or revoke connections anytime under **Profile → MCP**.
 
