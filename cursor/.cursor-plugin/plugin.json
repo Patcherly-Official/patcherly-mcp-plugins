@@ -1,7 +1,7 @@
 {
   "name": "patcherly",
   "displayName": "Patcherly",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "Connect Cursor to Patcherly hosted MCP to triage errors and export workspace data",
   "author": {
     "name": "Patcherly"
