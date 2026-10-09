@@ -19,6 +19,6 @@ Use dedicated export tools (not list+get loops) when the user wants CSV parity w
 | `export_audit` | `mcp:audit:export` | Tenant audit trail CSV |
 
 1. Confirm the user's workspace policy includes the **Export** cap for that domain (Profile → MCP).
-2. Call the export tool; result includes `content` (CSV text), `row_count`, and `format: csv`.
+2. Call the export tool; result includes `content` (CSV text), `row_count`, and `format: csv`. Field separator follows the signed-in user's Profile CSV delimiter (semicolon by default, or comma) — do not assume comma when parsing `content`.
 3. Save or summarize the CSV for the user — do not paste large exports verbatim into chat unless they ask.
 4. If a tool is missing from `tools/list`, the token lacks export scope or RBAC (e.g. metrics export needs view-metrics permission).

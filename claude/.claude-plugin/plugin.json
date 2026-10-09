@@ -1,6 +1,6 @@
 {
   "name": "patcherly",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Connect Claude Code to Patcherly hosted MCP to triage errors and export workspace data",
   "author": {
     "name": "Patcherly"
