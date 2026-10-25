@@ -23,7 +23,6 @@ One-click MCP (connection only, no skills/rules): [Install Patcherly MCP in Curs
 ## Help
 
 - [Connect your AI assistant](https://help.patcherly.com/integrations/connect-ai-assistant/)
-- [MCP client setup](https://help.patcherly.com/integrations/mcp-client-setup/)
 - [Discord](https://discord.gg/7yZkD9KNsS) · [Dashboard](https://app.patcherly.com)
 
 ## License

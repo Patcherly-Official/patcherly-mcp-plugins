@@ -12,7 +12,7 @@ codex mcp add patcherly --url https://mcp.patcherly.com/mcp
 
 Or install this plugin folder, then complete OAuth when prompted and approve the workspace in the Patcherly dashboard (**Profile → MCP**).
 
-Help: [Connect your AI assistant](https://help.patcherly.com/integrations/connect-ai-assistant/) · [MCP client setup](https://help.patcherly.com/integrations/mcp-client-setup/)
+Help: [Connect your AI assistant](https://help.patcherly.com/integrations/connect-ai-assistant/)
 
 ## License
 

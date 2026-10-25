@@ -38,13 +38,13 @@ Public packages live in [Patcherly-Official/patcherly-mcp-plugins](https://githu
 | **Cursor (full plugin)** | [Cursor Directory](https://cursor.directory/plugins/patcherly), Cursor marketplace, or clone/use the [`cursor/`](cursor/) folder in this repo |
 | **Claude Code** | `claude mcp add --transport http patcherly https://mcp.patcherly.com/mcp` then complete OAuth when prompted — or install the [`claude/`](claude/) plugin |
 | **Codex CLI** | `codex mcp add patcherly --url https://mcp.patcherly.com/mcp` then complete OAuth when prompted — or install the [`codex/`](codex/) plugin |
-| **VS Code / Copilot** | Add remote HTTP MCP at `https://mcp.patcherly.com/mcp` — see [MCP client setup](https://help.patcherly.com/integrations/mcp-client-setup/) |
+| **VS Code / Copilot** | Add remote HTTP MCP at `https://mcp.patcherly.com/mcp` — see [Connect your AI assistant](https://help.patcherly.com/integrations/connect-ai-assistant/#vs-code) |
 
 After install, approve the connection in the Patcherly dashboard when your assistant asks you to sign in.
 
 Manage or revoke connections anytime under **Profile → MCP**.
 
-Help Docs: **[Connect your AI assistant](https://help.patcherly.com/integrations/connect-ai-assistant/)** · **[MCP client setup](https://help.patcherly.com/integrations/mcp-client-setup/)**.
+Help: **[Connect your AI assistant](https://help.patcherly.com/integrations/connect-ai-assistant/)**.
 
 ---
 
