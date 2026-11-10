@@ -1,6 +1,6 @@
-# Patcherly for Claude Code
+# Patcherly for Claude
 
-Official Claude Code plugin for [Patcherly](https://patcherly.com): connect hosted MCP and use triage/export skills with your Patcherly account.
+Official Claude plugin (Claude desktop, Cowork and Claude Code) for [Patcherly](https://patcherly.com): connect hosted MCP and use triage/export skills with your Patcherly account.
 
 **Server URL:** `https://mcp.patcherly.com/mcp`
 
@@ -13,6 +13,8 @@ claude mcp add --transport http patcherly https://mcp.patcherly.com/mcp
 Or install this plugin folder, then complete OAuth when prompted and approve the workspace in the Patcherly dashboard (**Profile → MCP**).
 
 Help: [Connect your AI assistant](https://help.patcherly.com/integrations/connect-ai-assistant/)
+
+Legal: [Privacy Policy](https://patcherly.com/legal/privacy-policy#hosted-mcp-and-ai-assistants) · [Terms of Service](https://patcherly.com/legal/terms-of-service#hosted-mcp)
 
 ## License
 

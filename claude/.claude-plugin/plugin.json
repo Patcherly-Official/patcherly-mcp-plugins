@@ -1,9 +1,15 @@
 {
   "name": "patcherly",
-  "version": "1.0.12",
-  "description": "Connect Claude Code to Patcherly hosted MCP to triage errors and export workspace data",
+  "version": "1.0.13",
+  "description": "Connect Claude to Patcherly hosted MCP to triage errors and export workspace data",
   "author": {
     "name": "Patcherly"
   },
+  "homepage": "https://patcherly.com/mcp",
+  "repository": "https://github.com/Patcherly-Official/patcherly-mcp-plugins",
+  "documentationUrl": "https://help.patcherly.com/integrations/connect-ai-assistant/",
+  "supportUrl": "https://help.patcherly.com",
+  "privacyPolicyUrl": "https://patcherly.com/legal/privacy-policy#hosted-mcp-and-ai-assistants",
+  "termsOfServiceUrl": "https://patcherly.com/legal/terms-of-service#hosted-mcp",
   "license": "Apache-2.0"
 }
